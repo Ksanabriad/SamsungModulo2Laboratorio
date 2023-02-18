@@ -1,5 +1,5 @@
 <h1 align="center">
-  🐘🎯 Samsung Modulo 2 - Laboratorio
+  🐘🎯 Samsung Módulo 2 - Laboratorio
 </h1>
 
 <p align="center">
