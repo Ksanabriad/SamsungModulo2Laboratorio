@@ -6,4 +6,6 @@
   Entrega final de un formulario con distintas validaciones 👩‍ para la inscripción ✅ de un usuario 🤩.
 </p>
 
-## 🚀 Descarga y disfruta 😊
+<p align="center">
+  🚀 Descarga y disfruta 😊
+</p>
