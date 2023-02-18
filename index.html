@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Actividad final</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <form class="form_register">
+        <h2>Create Account</h2>
+        <div class="form_container">
+            <div class="form_group">
+                <label for="nombre" class="form_label">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" class="form_input" placeholder="¿Nombre?">
+                <span class="icon-error-icon"></span>
+                <span class="icon-success-icon"></span>
+                <small>Error message</small>
+            </div>
+            <div class="form_group">
+                <label for="email" class="form_label">Email:</label>
+                <input type="email" id="email" name="email" class="form_input" placeholder="Email">
+                <span class="icon-error-icon"></span>
+                <span class="icon-success-icon"></span>
+                <small>Error message</small>
+            </div>
+            <div class="form_group">
+                <label for="clave" class="form_label">Clave:</label>
+                <input type="password" id="clave" name="clave" class="form_input" placeholder="Clave">
+                <span class="icon-error-icon"></span>
+                <span class="icon-success-icon"></span>
+                <small>Error message</small>
+            </div>
+            <div class="form_group">
+                <label for="confirme_clave" class="form_label">Confirme su clave:</label>
+                <input type="password" id="confirme_clave" name="confirme_clave" class="form_input"
+                    placeholder="Confirme su clave">
+                <span class="icon-error-icon"></span>
+                <span class="icon-success-icon"></span>
+                <small>Error message</small>
+            </div>
+            <input class="form_button" type="button" onclick="checkInputs()" value="ENVIAR"></input>
+        </div>
+    </form>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>

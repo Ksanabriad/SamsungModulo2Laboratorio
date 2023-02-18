@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    background-color: #211a21;
+    color: rgb(74, 61, 217);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+}
+
+.form_register {
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 4.5em 3em;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px -5px;
+    display: inline-block;
+    border: #4a516f solid 1px;
+    background: #1c2031;
+}
+
+.form_register h2 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.form_container {
+    margin-top: 3em;
+    display: grid;
+    gap: 2.5em;
+    /*Espaciado entre cada elemento*/
+}
+
+.form_group {
+    position: relative;
+}
+
+.form_input {
+    width: 100%;
+    background: white;
+    color: #080808;
+    font-size: 1rem;
+    padding: 0.6em 0.3em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+}
+
+.form_label {
+    cursor: pointer;
+    position: none;
+    top: 0;
+}
+
+.form_button {
+    color: #f3f3f6;
+    background-color: #6576c2;
+    font-size: 1rem;
+    border: 0.5em;
+    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    padding: 0.8em 0;
+    width: 100%;
+}
+
+.form_button:hover {
+    background-color: #8f65c2;
+}
+
+@font-face {
+    font-family: 'font-samsung';
+    src:  url('fonts/font-samsung.eot?kxsmxs');
+    src:  url('fonts/font-samsung.eot?kxsmxs#iefix') format('embedded-opentype'),
+      url('fonts/font-samsung.ttf?kxsmxs') format('truetype'),
+      url('fonts/font-samsung.woff?kxsmxs') format('woff'),
+      url('fonts/font-samsung.svg?kxsmxs#font-samsung') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'font-samsung' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-error-icon:before {
+    content: "\e900";
+    color: #db5a5a;
+  }
+  .icon-success-icon:before {
+    content: "\e901";
+    color: #4eca64;
+  }
+  .form-group.success input {
+	border-color: #2ecc71;
+}
+
+.form_group.error input {
+	border-color: #e74c3c;
+}
+
+.form_group span {
+	visibility: hidden;
+	position: absolute;
+	top: 40px;
+	right: 10px;
+}
+
+.form_group.success span.icon-success-icon {
+	color: #2ecc71;
+	visibility: visible;
+}
+
+.form_group.error span.icon-error-icon {
+	color: #e74c3c;
+	visibility: visible;
+}
+
+.form_group small {
+	color: #e74c3c;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	visibility: hidden;
+}
+
+.form_group.error small {
+	visibility: visible;
+}
